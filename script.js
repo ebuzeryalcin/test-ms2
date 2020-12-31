@@ -114,12 +114,8 @@ nextButton.addEventListener('click', function () {
     }
     //If quiz is finished then results will be showen
     if (currentQuestion == totalQuestions) {
-        // TODO burayı kontrol et mobilde yönlendirme yaparken local ip adresi ile çalış¨tığından hata veriyor
-         var url_string = window.location.href;
-        var url = new URL(url_string);
-        alert(url)
-        return window.location = "http://127.0.0.1:5503/result.html" + "?score=" + maxScore;
-    
+        return window.location = "result.html" + "?score=" + maxScore;   
+    //return window.location.assign("result.html") + "?score=" + maxScore;
     }
     // function to generate next question
     generateQuestions(currentQuestion);
