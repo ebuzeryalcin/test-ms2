@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ebuzer Yalcin | Yumi Travelling Quiz">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--scripts, api script included-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!--Font Awesome-->
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <!--Link to css folder-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Yumi Travelling Quiz</title>
+</head>
+
+<body>
+    <!--Navbar, logo, 3 buttons, bootstrap-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html"> <img src="assets/images/logo.png" alt=""></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item ">
+						<a href="quiz.html" class="nav-link">Quiz</a>
+					</li>
+					<li class="nav-item ">
+						<a href="result.html" class="nav-link">Result</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </nav>
+
+    <!--Container with introduction text and start button, bootstrap-->
+    <div class="quiz-container">
+		<div class="title">Travelling quiz</div>
+		<h3>
+			One important thing to figure out before you even start planning your trip is what kind of traveler you are.
+			If you plan a trip that doesn’t fit with your personality and who you are, you probably won’t enjoy the trip.
+			Here are a few things to consider before booking your next vacation. Take a look at your every day life:
+			Are you a city person or do you enjoy being out in nature? What kinds of activities do you enjoy, physical
+			activities or more mental ones? Do you like big crowds or do lots of people make you feel claustrophobic?
+			Do you want your trip to involve relaxation or lots of activities?
+		</h3>
+		<a href="quiz.html" class="btn btn-secondary startquizbutton">Start Quiz</a>
+	</div>
+    
+    <!-- Footer -->
+    <footer>
+		<div class="container-fluid padding bg-dark">
+			<div class="row text-center padding">
+				<div class="col-12">
+					<h2>Connect</h2>
+				</div>
+				<div class="col-12 social padding">
+					<a aria-label="This is a link to an external page called Facebook" target="_blank"
+						href="http://www.facebook.com/">
+						<i class="fab fa-facebook" aria-hidden="true"></i></a>
+					<a aria-label="This is a link to an external page called Twitter" target="_blank"
+						href="http://www.twitter.com/">
+						<i class="fab fa-twitter" aria-hidden="true"></i></a>
+					<a aria-label="This is a link to an external page called Instagram" target="_blank"
+						href="http://www.instagram.com/">
+						<i class="fab fa-instagram" aria-hidden="true"></i></a>
+					<a aria-label="This is a link to an external page called Youtube" target="_blank"
+						href="http://www.youtube.com/">
+						<i class="fab fa-youtube" aria-hidden="true"></i></a>
+				</div>
+                <div class="col-12">
+					<hr class="light">
+					<h5>&copy;yumi.com</h5>
+					<img id="footerlogo" alt="page logo" src="assets/images/logo.png">
+				</div>
+			</div>
+		</div>
+	</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

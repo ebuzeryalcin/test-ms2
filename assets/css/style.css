@@ -1,0 +1,155 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif, sans-serif;
+    font-weight: 100;
+    line-height: 1.7rem;
+    background-image:url(../images/uzay7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 393px; 
+}
+
+h1{
+    background-color:rgb(245, 244, 244);
+}
+
+/*navbar*/
+.navbar{
+    padding: .8rem;
+  }
+.navbar-nav li{
+    padding-right: 20px;
+  }
+.nav-link{
+    font-size: 1.3em !important;
+  }
+
+/*Container*/
+.quiz-container{
+    text-decoration: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 20px;  
+    font-weight: bold;
+    padding-top: 5rem;
+    padding-bottom: 5rem; 
+    line-height: 3rem; 
+    font-family: 'Indie Flower', cursive, sans-serif;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(245, 244, 244) ;
+    text-shadow: 1px 1px white;
+    border-radius: 10px 70px;
+    border: 10px solid rgb(59, 75, 73);
+    width: 90%;
+    margin: 2rem auto; 
+}
+
+.title{
+    font-family: 'Indie Flower', cursive, sans-serif;
+    text-align: center;
+    font-size: 25px; 
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(131, 122, 128);
+}
+
+.startquizbutton{
+    width: 150px;
+    border-radius: 10px;
+    border-color: rgb(7, 7, 7);
+    background-color:rgb(59, 75, 73);
+    color: #fff;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.startquizbutton:hover{
+  width: 150px;
+  border-radius: 10px;
+  color: rgb(26, 9, 17);
+ background-color: #fff;
+   border-color: rgba(0, 0, 0, 0.2);
+  font-family: 'Indie Flower', cursive, sans-serif;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.previous{
+    width: 200px;
+    border-radius: 10px;
+    border-color: rgb(7, 7, 7);
+    background-color:rgb(59, 75, 73);
+    color: #fff;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.previous:hover{
+  width: 200px;
+  border-radius: 10px;
+  color: rgb(26, 9, 17);
+ background-color: #fff;
+   border-color: rgba(0, 0, 0, 0.2);
+  font-family: 'Indie Flower', cursive, sans-serif;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.next{
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(59, 75, 73);
+    border-color: rgb(7, 7, 7);
+    color: #fff;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.next:hover{
+    width: 200px;
+    border-radius: 10px;
+    color: rgb(26, 9, 17);
+    background-color: #fff;
+    border-color: rgba(0, 0, 0, 0.2);
+    font-family: 'Indie Flower', cursive, sans-serif;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*Map*/
+#map {
+  height: 600px;
+  width: 100%;
+}
+
+/*Footer*/
+footer{
+    color: #fff;
+    padding-top: 2rem;
+  }
+
+.social a{
+    font-size: 2.5em;
+    padding: 2rem;
+    color: #fff;
+  }
+  
+.social a:hover{
+    color: #d5d5d5;
+  }
+
+#footerlogo{
+    height: 40px;
+    width: 120px;
+  }
+
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
