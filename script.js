@@ -114,7 +114,7 @@ nextButton.addEventListener('click', function () {
     }
     //If quiz is finished then results will be showen
     if (currentQuestion == totalQuestions) {
-        return window.location.assign("result.html" + "?score=" + maxScore);   
+        return window.location.assign("result.html?score="+maxScore);   
     //return window.location.assign("result.html") + "?score=" + maxScore;  return window.location.assign("end.html");
     }
     // function to generate next question
