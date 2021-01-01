@@ -73,7 +73,7 @@ function recommendation() {
 // 14-) Image function
 function getImage() {
     var score = localStorage.getItem("scoreStorage");
-    console.log(score)
+    alert(score)
     var resultimage;
 
         //Recommendation will be given depending on score
