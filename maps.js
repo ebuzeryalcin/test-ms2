@@ -16,9 +16,8 @@ function initMap() {
 
     //Location function, Stackoverflow.com
     function getLocation() {
-        var url_string = window.location.href;
-        var url = new URL(url_string);
-        var score = url.searchParams.get("score");
+        
+        var score = localStorage.getItem(score);
         //Location will be given depending on score
         if (score >= 7 && score <= 13) {
             return naturalLocation;
