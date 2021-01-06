@@ -63,7 +63,12 @@ var answer1 = document.querySelector('.option1');
 var answer2 = document.querySelector('.option2');
 var nextButton = document.querySelector('.next');
 var previousButton = document.querySelector('.previous');
+var startquizbtn = document.querySelector('.startquizbutton') 
 
+ startquizbtn.addEventListener('click',function(){
+
+console.log('merhaba');
+});
 //Function to generate question on screen
 function generateQuestions(questionNumber) {
     //generates new question
